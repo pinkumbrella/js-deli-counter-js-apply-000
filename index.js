@@ -6,6 +6,9 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
+  if (katz.length === 0) {
+    return ""
+  }
   return katzDeliLine.unshift()
 }
 
