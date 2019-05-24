@@ -6,9 +6,14 @@ function takeANumber(name, katzDeliLine) {
 }
 
 function nowServing(katzDeliLine) {
-  return katzDeliLine[0]
+  return katzDeliLine.unshift()
 }
 
 function currentLine(katzDeliLine) {
+  var lineLength = katzDeliLine.length
+  if (lineLength === 0) {
+    return "The line is currently empty."
+  }
+  
 
 }
