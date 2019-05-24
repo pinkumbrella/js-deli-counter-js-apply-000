@@ -9,4 +9,6 @@ function nowServing(katzDeliLine) {
   return katzDeliLine[0]
 }
 
-function currentLine(katzDeliLine)
+function currentLine(katzDeliLine) {
+  
+}
